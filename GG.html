@@ -4,7 +4,7 @@
 <body>
 	<h1>網頁版四則運算計算機</h1>>
 
-	<h3>加法</h3>>
+	<h3>加法</h3>
 
 	<form>
 		請輸入數字: <input type="text" id="N">
@@ -13,7 +13,7 @@
 		請輸入數字: <input type="text" id="M">
 	</form>
 	<p id="BMI"></p>
-	<button type="button" onclick="cal()">BMI</button>
+	<button type="button" onclick="cal()">輸出答案</button>
 	<script>
 		function cal(){
 		var N = document.getElementById("N").value;
@@ -23,7 +23,7 @@
 		}
 	</script>
 
-	<h3>減法</h3>>
+	<h3>減法</h3>
 
 	<form>
 		請輸入數字: <input type="text" id="N">
@@ -32,7 +32,7 @@
 		請輸入數字: <input type="text" id="M">
 	</form>
 	<p id="BMI"></p>
-	<button type="button" onclick="cal()">BMI</button>
+	<button type="button" onclick="cal()">輸出答案</button>
 	<script>
 		function cal(){
 		var N = document.getElementById("N").value;
@@ -73,7 +73,7 @@
 		請輸入數字: <input type="text" id="M">
 	</form>
 	<p id="BMI"></p>
-	<button type="button" onclick="cal()">BMI</button>
+	<button type="button" onclick="cal()">輸出答案</button>
 	<script>
 		function cal(){
 		var N = document.getElementById("N").value;
@@ -82,62 +82,6 @@
 		document.getElementById("輸出答案").innerHTML= bmi;
 		}
 	</script>
-
-
-
-	<h3></h3>>
-
-	<form>
-		請輸入數字: <input type="text" id="N">
-	</form>
-	<form>
-		請輸入數字: <input type="text" id="M">
-	</form>
-	<p id="BMI"></p>
-	<button type="button" onclick="cal()">BMI</button>
-	<script>
-		function cal(){
-		var N = document.getElementById("N").value;
-		var M = document.getElementById("M").value;
-		var bmi = M/(N*N);
-		document.getElementById("輸出答案").innerHTML= bmi;
-		}
-	</script>
-
-
-
-	<h3></h3>>
-
-	<form>
-		請輸入數字: <input type="text" id="N">
-	</form>
-	<form>
-		請輸入數字: <input type="text" id="M">
-	</form>
-	<p id="BMI"></p>
-	<button type="button" onclick="cal()">BMI</button>
-	<script>
-		function cal(){
-		var N = document.getElementById("N").value;
-		var M = document.getElementById("M").value;
-		var bmi = M/(N*N);
-		document.getElementById("輸出答案").innerHTML= bmi;
-		}
-	</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
